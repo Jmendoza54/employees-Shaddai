@@ -14,7 +14,7 @@
            <div class="col-lg-12">
             <div class="card bg-shaddai">
                 <h5 class="card-header text-center">
-                    Shaddai Group - Confirmar Password
+                    Shaddai Group - Confirmar Password 
                 </h5>
                 <div class="col-lg-12 py-3">
                     <div class="row">
@@ -55,3 +55,4 @@
     <script src="{{ asset('js/confirm-pass.js') }}"></script>
 </body>
 </html>
+{{-- test --}}
