@@ -1,0 +1,155 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+    width: 100%;
+    min-height: 900px;
+    height: 100%;
+    position: relative;
+    font-family: Helvetica, sans-serif;
+}
+img{pointer-events: none;}
+.employee-card{
+    width: 500px;
+    min-height: 500px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+.employee-card .card-body{
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+    width: 350px;
+    margin: 0 auto;
+}
+.header-card{
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    height: 200px;
+    box-sizing: border-box;
+}
+.card-footer .logo{
+    position: absolute;
+    z-index: 5;
+    width: 150px;
+    right: 30px;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 3;
+    left: 0;
+}
+.employee-card .perfil{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px;
+    background-position: top;
+    background-size: cover;
+    border: #494948 12px solid;
+    margin: 0 auto;
+}
+.employee-card .employee-name{
+    font-size: 28px;
+    margin: 0;
+    margin-top: 15px;
+}
+.employee-card .employee-job{
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: 22px;
+    border-bottom: 5px solid #494948;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+.circle-1{
+    width: 345px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.circle-2{
+    width: 310px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.employee-card .card-footer{
+    position: relative;
+    height: 250px;
+}
+.employee-card .employee-info{
+    width: 280px;
+    margin: 10px auto;
+    text-align: left;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+}
+.employee-card .employee-info span{
+    width: 75px;
+    display: inline-block;
+    font-weight: 800;
+    font-style: normal;
+}
+.employee-status{
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.employee-status span{
+    font-size: 25px;
+    font-weight: 400;
+    display: block;
+}
+.status-enabled{
+    color: #035a03;
+}
+.status-disabled{
+    color:red;
+}
+.card-footer .qr-code-employee{
+    width: 180px;
+    position: absolute;
+    z-index: 10;
+    left: 30px;
+    top: 30px;
+}
+#down-card{
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #28a745;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.23)!important;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #168616;
+    font-size: 17px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+#down-card .icon-down-card{
+    width: 25px;
+    margin-bottom: 10px;
+}

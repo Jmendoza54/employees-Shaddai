@@ -1,0 +1,129 @@
+.brand-img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 10px;
+}
+.main-sidebar .brand-text{
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+}
+.navbar-nav:first-of-type{
+    display: none;
+}
+.btn-modal{
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 30px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.logo-dashboard{
+    width: 90%!important;
+    margin: 0 auto;
+}
+.visible{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+}
+
+.sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #343a40;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+.sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+    0%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+.modal .icon-alert {
+    width: 65px;
+    margin: 0 auto;
+    display: block;
+}
+#modal-delete .info-delete {
+    text-align: center;
+    font-size: 20px;
+}
+#table-employees{
+	text-align:center;
+    font-size: 15px;
+}
+#table-employees .badge{
+    font-size: 14px;
+}
